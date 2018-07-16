@@ -1,0 +1,29 @@
+<div class="col">
+  <h2>Produtos</h2>
+  <button class="btn btn-primary" (click)="addProduto()">Adicionar Produto</button>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Descricao</th>
+        <th>Quantidade</th>
+        <th>EAN</th>
+        <th>Valor</th>
+        <th>Acão</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let produto of produtos.data ">
+        <td>{{produto.id}}</td> 
+        <td>{{ produto.descricao }}</td>
+        <td>{{ produto.quantidade }}</td>
+        <td>{{ produto.codean }}</td>
+        <td>{{ produto.valor }}</td>
+        <td>
+            <button class="btn btn-success"(click)="editProduto(produto)">Editar</button>
+            <button class="btn btn-danger"(click)="deleteProduto(produto)">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

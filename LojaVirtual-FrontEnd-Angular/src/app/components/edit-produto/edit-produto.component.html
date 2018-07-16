@@ -1,0 +1,35 @@
+<div class="col">
+  <h2 class="text-center">Editar Produto</h2>
+  <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+    
+    <div class="form-group">
+        <label for="id">id:</label>
+        <input formControlName="id" name="id" class="form-control" id="id">
+    </div>
+    <div class="form-group">
+      <label for="descricao">Descricão:</label>
+      <input formControlName="descricao" placeholder="Descricao produto" name="descricao" class="form-control" id="descricao" required>
+    </div>
+
+    <div class="form-group">
+      <label for="quantidade">Quantidade:</label>
+      <input formControlName="quantidade" placeholder="Informe a quantidade" name="quantidade" class="form-control" id="quantidade"
+        required>
+    </div>
+
+    <div class="form-group">
+      <label for="codean">Cod. EAN:</label>
+      <input formControlName="codean" placeholder="digite o codigo ean do produto" name="codean" class="form-control" id="codean"
+        required>
+    </div>
+
+    <div class="form-group">
+      <label for="valor">Valor:</label>
+      <input formControlName="valor" placeholder="Digite o codigo o preço do produto" name="valor" class="form-control" id="valor"
+        required>
+    </div>
+
+    <button class="btn btn-success">Editar</button>
+    <button class="btn btn-primary" routerLink="list-produto">Voltar</button>
+  </form>
+</div>
