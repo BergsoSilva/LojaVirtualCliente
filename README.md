@@ -22,7 +22,7 @@ LojaVirtualCliente
     -npm 5.6.0
     -angula CLI : https://angular.io/guide/quickstart
     
-    ** E deve estar com o back end rodando (Servidor)  Spring Boot : 
+    ** E deve estar com o back end rodando (Servidor)  Spring Boot : https://github.com/BergsoSilva/LojaVirtual.git 
    
    
    
