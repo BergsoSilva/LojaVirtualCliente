@@ -6,7 +6,7 @@ LojaVirtualCliente
   * Angular6/CLI
     -Sistemas de roteameno do Angular
     -Services(HTTP) para cosumo da api Restfull Spring Boot;
-    -Bootstrap (link oline ) no index, para manter o tample de cadastro, listagem e ediçao com u bom visua.
+    -Bootstrap (link oline ) no index.html para manter o tamplete de cadastro, listagem e ediçao com um bom visua.
     
 * Projeto pussui uma tela inicial com a listagem de produtos e na tabela de listagem há as opções de edição e eclusão dos produtos;
 * O formulario de Cadastro possui quatro paramentros 
@@ -22,7 +22,7 @@ LojaVirtualCliente
     -npm 5.6.0
     -angula CLI : https://angular.io/guide/quickstart
     
-    ** E deve estar com o back end roado (Servidor)  Spring Boot : 
+    ** E deve estar com o back end rodando (Servidor)  Spring Boot : 
    
    
    
