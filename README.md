@@ -15,7 +15,7 @@ LojaVirtualCliente
       -quantidade
       -codean
       -valor
-   * todos os produtos são necesarios finalizaro cadatro;
+   * todos os atributos são necesarios finalizar o cadatro;
    
   Cofiguração para rodar o Projeto;
     -intalação do Nodejs link : https://nodejs.org/en/
